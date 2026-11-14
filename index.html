@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSound | Premium Audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Nova<span>Sound</span></div>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#products" class="cart">
+                Cart (<span id="cartCount">0</span>)
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="tagline">EXPERIENCE PREMIUM SOUND</p>
+
+            <h1>Feel Every Beat.<br>
+                <span>Live Every Moment.</span>
+            </h1>
+
+            <p class="description">
+                Discover premium headphones designed for
+                incredible sound, comfort and style.
+            </p>
+
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+
+        <div class="hero-image">
+            <div class="circle"></div>
+            <div class="headphone">🎧</div>
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+
+        <h2>Why Choose <span>NovaSound?</span></h2>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="feature-icon">♫</div>
+                <h3>Premium Sound</h3>
+                <p>Enjoy clear audio and powerful bass.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">◉</div>
+                <h3>Comfortable Design</h3>
+                <p>Designed for long listening sessions.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⌁</div>
+                <h3>Long Battery</h3>
+                <p>Listen to music without frequent charging.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+
+        <h2>Our <span>Products</span></h2>
+        <p class="section-description">
+            Choose your perfect audio companion.
+        </p>
+
+        <div class="product-container">
+
+            <div class="product-card">
+                <div class="product-image peach">🎧</div>
+                <h3>Nova Pro</h3>
+                <p>Wireless Headphones</p>
+                <h4>₹4,999</h4>
+                <button class="add-btn" data-product="Nova Pro">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image purple">🎵</div>
+                <h3>Nova Buds</h3>
+                <p>Wireless Earbuds</p>
+                <h4>₹2,499</h4>
+                <button class="add-btn" data-product="Nova Buds">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image green">🔊</div>
+                <h3>Nova Mini</h3>
+                <p>Portable Speaker</p>
+                <h4>₹1,999</h4>
+                <button class="add-btn" data-product="Nova Mini">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+        <p id="cartMessage" class="cart-message"></p>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Love Great Sound?</h2>
+        <p>Discover your favourite audio experience with NovaSound.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo">Nova<span>Sound</span></div>
+        <p>© 2026 NovaSound. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
